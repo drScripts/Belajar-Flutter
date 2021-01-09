@@ -26,4 +26,12 @@
       <li><strong>Note: Container merupakan Widget yang harus dibungkus dalam Flexible Widget</strong></li>
     </ul>
   </li>
+  <li>
+    Stack dan Align : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/stack_align_widget/lib/main.dart">disini</a>
+    <ul>
+      <li>Stack merupakan Widget yang akan membuat layer baru bagi tiap tiap childrennya</li>
+      <li>Align Widget merupakan widget yang akan membantu kalian untuk mengatur posisi Widget</li>
+    </ul>
+  </li>
+    
 <ol>  
