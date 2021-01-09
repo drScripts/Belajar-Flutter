@@ -23,6 +23,7 @@
   <li>Flexible Widget : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/flexible_widget">disini</a>
     <ul>
       <li>Flexible Widget merupakan pembungkus widget lainnya agar menyesuaikan ukuran dengan lebar dari smartphone</li>
+      <li><strong>Note: Container merupakan Widget yang harus dibungkus dalam Flexible Widget</strong></li>
     </ul>
   </li>
 <ol>  
