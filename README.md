@@ -9,12 +9,16 @@
   <li>StateFul Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/statefull_widget/lib/main.dart">disini</a></li>
   <li>Anonymous Method : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/anonymous_method/lib/main.dart">disini</a></li>
   <li>List dan ListView : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/lis_list_view/lib/main.dart">disini</a></li>
-  <li>Text Style : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/text_style/lib/main.dart">disini</a> note: menambahkan font harus menambahkan di pubspec</li>
+  <li>Text Style : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/text_style/lib/main.dart">disini</a>
+    <ul>
+      <li>note: menambahkan font harus menambahkan di pubspec
+    </ul>
+  </li> 
   <li>Animated Container dan Gesture Detection : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/animated_container_gesture_detector/lib/main.dart">disini</a>
    <ul>
-   <li>Animated container digunakan untuk memberikan effect animasi dari setiap perubahan yang terjadi</li>
+    <li>Animated container digunakan untuk memberikan effect animasi dari setiap perubahan yang terjadi</li>
     <li>Gesture Detection merupakan widget yang digunakan untuk mendeteksi even handler sepertin ontap,onDoubleTap,dll</li>
-    </ul>
+   </ul>
   </li>
   
 <ol>  
