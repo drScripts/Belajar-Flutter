@@ -8,6 +8,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String message = "ini adalah text";
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,12 +19,15 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              Text('Hello World'),
+              Text(message, style: TextStyle(fontSize: 25)),
               RaisedButton(
-                child: Text('Tekan Aku'),
-                color: Colors.cyan,
-                onPressed: null,
-              )
+                  child: Text('Tekan Aku'),
+                  color: Colors.cyan,
+                  onPressed: () {
+                    setState(() {
+                      message = "Tombol ini Ditekan";
+                    });
+                  }),
             ],
           ),
         ),
