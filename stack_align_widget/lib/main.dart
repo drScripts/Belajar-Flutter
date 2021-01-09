@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
           ),
           // button
           Align(
-            alignment: Alignment(0.75, 0.90), // costum dengan Alignment(x,y)
+            alignment: Alignment.topCenter, // costum dengan Alignment(x,y)
             child: RaisedButton(
               child: Text(
                 'Tombol',
