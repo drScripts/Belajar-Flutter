@@ -20,5 +20,9 @@
     <li>Gesture Detection merupakan widget yang digunakan untuk mendeteksi even handler sepertin ontap,onDoubleTap,dll</li>
    </ul>
   </li>
-  
+  <li>Flexible Widget : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/flexible_widget">disini</a>
+    <ul>
+      <li>Flexible Widget merupakan pembungkus widget lainnya agar menyesuaikan ukuran dengan lebar dari smartphone</li>
+    </ul>
+  </li>
 <ol>  
