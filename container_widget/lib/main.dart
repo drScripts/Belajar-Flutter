@@ -16,9 +16,14 @@ class MyApp extends StatelessWidget {
             margin: EdgeInsets.all(10), // luar dari si container
             color: Colors.redAccent,
             child: Container(
-              margin: EdgeInsets.only(bottom: 400),
-              color: Colors.blue,
-            )),
+                decoration: BoxDecoration(
+              gradient: LinearGradient(
+                colors: <Color>[Colors.amber, Colors.blue],
+                begin: Alignment.bottomCenter,
+                end: Alignment.topCenter,
+              ),
+              borderRadius: BorderRadius.circular(20),
+            ))),
       ),
     );
   }
