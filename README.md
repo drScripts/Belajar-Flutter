@@ -33,5 +33,6 @@
       <li>Align Widget merupakan widget yang akan membantu kalian untuk mengatur posisi Widget</li>
     </ul>
   </li>
-    
+ <li>
+  Image Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/image_widget/lib/main.dart">disini</a></li>
 <ol>  
