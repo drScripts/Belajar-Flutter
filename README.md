@@ -35,4 +35,10 @@
   </li>
  <li>
   Image Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/image_widget/lib/main.dart">disini</a></li>
+ <li>
+   Spacer Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/spacer_widget/lib/main.dart">disini</a>
+   <ul>
+    <li>Spacer Widget merupakan Widget yang digunakan untuk memberikan space atau jarak antar Widget lainnya</li>
+   </ul>
+ </li> 
 <ol>  
