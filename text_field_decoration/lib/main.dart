@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
                     TextField(
-                      // obscureText: true, // untuk password
+                      // obscureText: true, // untuk passwords
                       maxLength: 100, //maximal character
                       maxLines: 2, // maximal line kebbawah
                       onChanged: (value) {
