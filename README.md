@@ -50,4 +50,13 @@
   </li>
  </ul>
  </li>
+  <li>MultiPage dengan navigator :>
+    <ul>
+      <li>untuk membuat multi page page pertama yang akan menjadi tampilan awal dari aplikasi ini harus dijadikan home pada main.dart seprti : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/navigasi_multiple_page/lib/main.dart">disini</a></li>
+      <li>untuk menghilangkan page yang tidak kita ingin lagi untuk tampilkan atau tidak bisa di back maka kita harus menggunakan (Navigator.pushReplacement) seperti <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/navigasi_multiple_page/lib/login.dart">disini</a></li>
+      <li>untuk melanjutkan page ke halaman selanjutnya kita menggunakan (Navigator.push) seperti <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/navigasi_multiple_page/lib/main_page.dart">disini</a></li>
+      <li>untuk kembali kehalan sebelumnya kita bisa menggunakan (Navigator.pop) seperti <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/navigasi_multiple_page/lib/second.dart">disini</a></li>
+    </ul>
+  </li>
+  
 <ol>  
