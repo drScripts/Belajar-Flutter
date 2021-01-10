@@ -58,5 +58,12 @@
       <li>untuk kembali kehalan sebelumnya kita bisa menggunakan (Navigator.pop) seperti <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/navigasi_multiple_page/lib/second.dart">disini</a></li>
     </ul>
   </li>
-  
+  <li>
+    Costum AppBar Gradient Background dengan imageDecoration Icon dan Iconbutton : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/appbar_iconbutton_icon/lib/main.dart">disini</a>
+    <ul>
+      <li>leading merupakan tempat untuk menyimpan Icon di sebelah paling kanan</li>
+      <li>untuk semua icon yang ingin berada di sebelah kiri ditaruh dengan parameter (action:<Widget>[])</li>
+      <li>untuk memberikan decoration seperti image pada appbar menggunakan parameter(flexibleSpace:) </li>  
+    </ul>
+  </li>
 <ol>  
