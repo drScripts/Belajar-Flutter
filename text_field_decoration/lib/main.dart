@@ -18,14 +18,22 @@ class _MyAppState extends State<MyApp> {
               backgroundColor: Colors.pink[100],
             ),
             body: Container(
-              margin: EdgeInsets.all(40),
+              margin: EdgeInsets.all(20),
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: <Widget>[
                     TextField(
                       // obscureText: true, // untuk passwords
-                      maxLength: 100, //maximal character
-                      maxLines: 2, // maximal line kebbawah
+                      decoration: InputDecoration(
+                          icon: Icon(Icons.person),
+                          prefixIcon: Icon(Icons.check, color: Colors.green),
+                          border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(20)),
+                          labelText: 'Input Name',
+                          hintText: 'Input your Name',
+                          hintStyle: TextStyle(
+                              color: Colors.red, fontWeight: FontWeight.bold)),
+                      maxLength: 100, // maximal line kebbawah
                       onChanged: (value) {
                         setState(() {});
                       },
