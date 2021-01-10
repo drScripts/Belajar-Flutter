@@ -66,4 +66,5 @@
       <li>untuk memberikan decoration seperti image pada appbar menggunakan parameter(flexibleSpace:) </li>  
     </ul>
   </li>
+  <li>Card Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/card_widget/lib/main.dart">disini</a></li>
 <ol>  
