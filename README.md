@@ -41,4 +41,13 @@
     <li>Spacer Widget merupakan Widget yang digunakan untuk memberikan space atau jarak antar Widget lainnya</li>
    </ul>
  </li> 
+ <li>
+  Draggable dan DragTarget, SizedBox, dan Material : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/draggable_dragtarget_sizedbox_material/lib/main.dart">disini</a>
+ <ul>
+  <li>Dragable merupakan sebuah widget(Draggable<dataTYpe contoh (Colors)>) yang akan membuat Widget yang dibungkusnya dapat di drag. Widget ini juga harus memiliki params (data:) dimaana params ini yang akan membawa data dari widget yang kita drag lalu ada params(childWhenDragging(disimpan sesudah child)) merupakan params yang akan terjadi pada  child saat Widget tersebut di drag.Lalu paramas(feedback:) merupakan Params yang akan mengatur hal yang akan mengatur perubahan yang terjadi saat Widget tesebut di drag</li>
+  <li>
+    pada DragTarget ini menerima beberapa parameter yang penting seperti contohnya parameter (onWillAccept) parameter ini akan mengatur apakah WidgetDragTargeet ini akan selalu menerima atau tidak lalu ada parameter (onAccept:) parameter ini akan mengatur hal apa yang terjadi bila menerima dari dragAble.
+  </li>
+ </ul>
+ </li>
 <ol>  
