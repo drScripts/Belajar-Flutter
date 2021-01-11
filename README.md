@@ -73,4 +73,11 @@
   </ul>
   </li>
   <li>Text Field Decoration : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/text_field_decoration/lib/main.dart">disini</a></li>
+  <li>Media Query :> 
+    <ul>
+      <li>MediaQuery.of(context).size.(width/height) : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/media_query/lib/query_width_height.dart">disini</a></li>
+      <li>MediaQuery.of(context).orientation ini harus memanggil class Orientation.(landscape / potrait) <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/media_query/lib/directional_phone.dart">disini</a></li>
+    </ul>
+  </li>
+  
 <ol>  
