@@ -79,5 +79,9 @@
       <li>MediaQuery.of(context).orientation ini harus memanggil class Orientation.(landscape / potrait) <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/media_query/lib/directional_phone.dart">disini</a></li>
     </ul>
   </li>
-  
+  <li>Button Dengan Material dan InkWell : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/inkwell/lib/button_material_inkwell.dart">disini</a>
+    <ul>
+      <li><strong>NOTE :< Untuk membuat sebuah Button dengan Material dan InkWell Yang pertama tama harus membuat sebuah container(untuk menghias buttonnya) lalu membuat Material dan material color harus di set dengan warna transparent lalu baru di dalam Material membuat widget inkWell untuk membuat effect sebuat bayangan harus membungkus container awal dengan Widget Material dan set borderRadius harus sama lalu set elevation sesuka kalian</strong></li>
+    </ul>
+  </li>
 <ol>  
