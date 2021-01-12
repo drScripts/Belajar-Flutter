@@ -8,13 +8,10 @@
 + untuk menetapkan rotation dari applikasi menggunakan :
 
 <pre>
-void main() {
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
-      .then((_) {
-    runApp(MyApp());
-  });
-}
+    SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+    sebelum return MaterialApp();
 </pre>
+<a href="https://github.com/drScripts/Belajar-Flutter/blob/master/positioned_floatingactionbutton_loginpage/lib/main.dart">disini</a>
 ================================================================================
 
 <ol>
