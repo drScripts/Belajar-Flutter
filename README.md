@@ -123,4 +123,10 @@
             <li><strong>untuk membuat tabar kita harus membuat widget awalnya dengan DefaultTabController(); lalu didalam widget tersebut kita memasukan parameter length:yang merupaan panjang TabBar yang akan dipakai lalu setelah itu pada child membuat scafold dan AppBar seperti biasa lalu untuk tabbar itu sendiri kita menyimpannya pada parametter bottom setelah title setelah itu kita membuat list yang berisi Tab() bar itu sendirii isinya bebas berupa Widget lalu pada body: kita menyertakan TabBarView() dimana childrennya akan mengambil setiap element menjadi satu tab atau halaman urut darii bagian pertama hingga akhir</strong></li>
         </ul>
     </li>    
+    <li>
+        Menghias Tab Bar = <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/costum_tampilan_tab_bar/lib/main.dart">disini</a>
+        <li>
+            untuk dapat membuat background color jadii widget Tab Bar kita dapat membungkus Widget Tab dengan Container, namun karena Tab Bar tersusun dengan Widget preferredSized maka kita harus membungkus Container dengan preferredSized dan mengatur heightnya. dan kita bisa mewarnain Containernya. untuk menghias indicator kita bisa membuat Widget DecorationBox pada parameter indicator dan bisa menghiasnnyaa. 
+        </li>   
+    </li>   
 <ol>  
