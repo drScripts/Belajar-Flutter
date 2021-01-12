@@ -104,4 +104,11 @@
   <li>
     Positioned Widget dan FloatingActionButton : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/positioned_floatingactionbutton_loginpage/lib/login_page.dart">disini</a>
   </li>
+  <li>
+    Hero Animation dan ClipRRect :
+      <ul>
+          <li>untuk membuat sebuah gambar menjadi linkran atau berbentuk lingkaran harus menggunakan widget ClipRRect sepert pada berikut <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hero_animation_clip_r_rect_widget/lib/main_page.dart"></a></li>
+          <li>untuk membuat sebuah Hero Animation wajib membungkus sebuah widget yang akan di beri HeroAnimasi dengan Widget Hero dan bila sudah menggunakan Widget Hero Kedua Widget yang akan diberikan Widget Hero harus disertakan params tag dengan value yang sama <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hero_animation_clip_r_rect_widget/lib/main_page.dart">disini</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hero_animation_clip_r_rect_widget/lib/second_page.dart">disini</a></li>
+      </ul>
+  </li>
 <ol>  
