@@ -115,7 +115,7 @@
     Costum Size AppBar dengan preferredSize() : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/app_bar_costum_size/lib/main_page.dart">disini</a>
     <ul>
         <li><strong>untuk mengatur ukuran AppBar secara costum dapat menggunakan preferredSize lalu agar bisa mengatur tempat tulisan atau title bisa ditaruh dalam flexibleSpace lalu agar bisa mengubah letak secara costum bisa menggunakan Positioned namun widget Positioned ini harus dibungkus menggunakan widget Stack</strong></li>
-    <ul>
+    </ul>
     </li>
     <li>
         Membuat Tab Bar = <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/tab_bar/lib/main.dart">disini</a>
@@ -125,8 +125,10 @@
     </li>    
     <li>
         Menghias Tab Bar = <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/costum_tampilan_tab_bar/lib/main.dart">disini</a>
+        <ul>
         <li>
             untuk dapat membuat background color jadii widget Tab Bar kita dapat membungkus Widget Tab dengan Container, namun karena Tab Bar tersusun dengan Widget preferredSized maka kita harus membungkus Container dengan preferredSized dan mengatur heightnya. dan kita bisa mewarnain Containernya. untuk menghias indicator kita bisa membuat Widget DecorationBox pada parameter indicator dan bisa menghiasnnyaa. 
-        </li>   
+            </li>
+        </ul>
     </li>   
 <ol>  
