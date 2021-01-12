@@ -84,4 +84,9 @@
       <li><strong>NOTE :< Untuk membuat sebuah Button dengan Material dan InkWell Yang pertama tama harus membuat sebuah container(untuk menghias buttonnya) lalu membuat Material dan material color harus di set dengan warna transparent lalu baru di dalam Material membuat widget inkWell untuk membuat effect sebuat bayangan harus membungkus container awal dengan Widget Material dan set borderRadius harus sama lalu set elevation sesuka kalian</strong></li>
     </ul>
   </li>
+  <li>Opacity membuat Costum Card : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/opacity_custom_card_dengan_latar_bercorak/lib/main_page.dart">disini</a>
+  <ul>
+    <li><strong>Container dapat di hias menggunakan decoration:BoxDecoration(). card dibungkus dengan menggunakan sizedBox agar dapat diatur width dan heightnya. untuk membuat tipis/transparant menggunakan Opacity()</strong></li>
+  </ul>
+  </li>
 <ol>  
