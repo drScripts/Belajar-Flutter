@@ -117,4 +117,10 @@
         <li><strong>untuk mengatur ukuran AppBar secara costum dapat menggunakan preferredSize lalu agar bisa mengatur tempat tulisan atau title bisa ditaruh dalam flexibleSpace lalu agar bisa mengubah letak secara costum bisa menggunakan Positioned namun widget Positioned ini harus dibungkus menggunakan widget Stack</strong></li>
     <ul>
     </li>
+    <li>
+        Membuat Tab Bar = <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/tab_bar/lib/main.dart">disini</a>
+        <ul>
+            <li><strong>untuk membuat tabar kita harus membuat widget awalnya dengan DefaultTabController(); lalu didalam widget tersebut kita memasukan parameter length:yang merupaan panjang TabBar yang akan dipakai lalu setelah itu pada child membuat scafold dan AppBar seperti biasa lalu untuk tabbar itu sendiri kita menyimpannya pada parametter bottom setelah title setelah itu kita membuat list yang berisi Tab() bar itu sendirii isinya bebas berupa Widget lalu pada body: kita menyertakan TabBarView() dimana childrennya akan mengambil setiap element menjadi satu tab atau halaman urut darii bagian pertama hingga akhir</strong></li>
+        </ul>
+    </li>    
 <ol>  
