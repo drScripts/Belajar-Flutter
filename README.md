@@ -6,12 +6,12 @@
 ================================= Penting ==================================
 + untuk menghilangkan debug checker banner menggunakan (debugShowCheckedModeBanner: false,) pada MaterialApp(),
 + untuk menetapkan rotation dari applikasi menggunakan :
-
+<a href="https://github.com/drScripts/Belajar-Flutter/blob/master/positioned_floatingactionbutton_loginpage/lib/main.dart">disini</a>
 <pre>
     SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
     sebelum return MaterialApp();
 </pre>
-<a href="https://github.com/drScripts/Belajar-Flutter/blob/master/positioned_floatingactionbutton_loginpage/lib/main.dart">disini</a>
+
 ================================================================================
 
 <ol>
