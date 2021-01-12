@@ -130,5 +130,10 @@
             untuk dapat membuat background color jadii widget Tab Bar kita dapat membungkus Widget Tab dengan Container, namun karena Tab Bar tersusun dengan Widget preferredSized maka kita harus membungkus Container dengan preferredSized dan mengatur heightnya. dan kita bisa mewarnain Containernya. untuk menghias indicator kita bisa membuat Widget DecorationBox pada parameter indicator dan bisa menghiasnnyaa. 
             </li>
         </ul>
-    </li>   
+    </li>
+    <li> Memasukan Qr Code : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/menampilkan_qr_code/lib/main.dart">disini</a>
+        <ul>
+            <li>Untuk menaruh qr code ke dalam aplikasi kita harus menaruh qr_flutter:(version) pada depedencies di pubspec lalu setelah itu kita harus import "package:qr_flutter/qr_flutter.dart" seperti biasa dan cara menampilkannya dengan menaruh widget QrImage()</li>
+        </ul>
+    </li>
 <ol>  
