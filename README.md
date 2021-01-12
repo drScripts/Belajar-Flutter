@@ -2,6 +2,21 @@
 
 =============================== Tutorial FLutter ===============================
 
+
+=================================== Penting ====================================
++ untuk menghilangkan debug checker banner menggunakan (debugShowCheckedModeBanner: false,) pada MaterialApp(),
++ untuk menetapkan rotation dari applikasi menggunakan :
+
+<pre>
+void main() {
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+      .then((_) {
+    runApp(MyApp());
+  });
+}
+</pre>
+================================================================================
+
 <ol>
   <li>Row Column : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/row_columns_widget/lib/main.dart">disini</a></li>
   <li>Text Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/text_widget/lib/main.dart">disini</a></li>
