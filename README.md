@@ -3,7 +3,7 @@
 =============================== Tutorial FLutter ===============================
 
 
-=================================== Penting ====================================
+================================= Penting ==================================
 + untuk menghilangkan debug checker banner menggunakan (debugShowCheckedModeBanner: false,) pada MaterialApp(),
 + untuk menetapkan rotation dari applikasi menggunakan :
 
