@@ -12,7 +12,7 @@
     sebelum return MaterialApp();
 </pre>
 
-================================================================================
+=========================================================================
 
 <ol>
   <li>Row Column : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/row_columns_widget/lib/main.dart">disini</a></li>
