@@ -111,4 +111,10 @@
           <li>untuk membuat sebuah Hero Animation wajib membungkus sebuah widget yang akan di beri HeroAnimasi dengan Widget Hero dan bila sudah menggunakan Widget Hero Kedua Widget yang akan diberikan Widget Hero harus disertakan params tag dengan value yang sama <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hero_animation_clip_r_rect_widget/lib/main_page.dart">disini</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hero_animation_clip_r_rect_widget/lib/second_page.dart">disini</a></li>
       </ul>
   </li>
+    <li>
+    Costum Size AppBar dengan preferredSize() : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/app_bar_costum_size/lib/main_page.dart">disini</a>
+    <ul>
+        <li><strong>untuk mengatur ukuran AppBar secara costum dapat menggunakan preferredSize lalu agar bisa mengatur tempat tulisan atau title bisa ditaruh dalam flexibleSpace lalu agar bisa mengubah letak secara costum bisa menggunakan Positioned namun widget Positioned ini harus dibungkus menggunakan widget Stack</strong></li>
+    <ul>
+    </li>
 <ol>  
