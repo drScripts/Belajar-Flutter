@@ -136,4 +136,7 @@
             <li>Untuk menaruh qr code ke dalam aplikasi kita harus menaruh qr_flutter:(version) pada depedencies di pubspec lalu setelah itu kita harus import "package:qr_flutter/qr_flutter.dart" seperti biasa dan cara menampilkannya dengan menaruh widget QrImage()</li>
         </ul>
     </li>
+    <li>
+        Hard Costum Button untuk file <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/costum_button/lib/main.dart">main.dart</a> dan file <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/costum_button/lib/costum_button.dart">costum_button.dart</a>
+    </li>
 <ol>  
