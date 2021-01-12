@@ -89,4 +89,7 @@
     <li><strong>Container dapat di hias menggunakan decoration:BoxDecoration(). card dibungkus dengan menggunakan sizedBox agar dapat diatur width dan heightnya. untuk membuat tipis/transparant menggunakan Opacity()</strong></li>
   </ul>
   </li>
+  <li>
+    Positioned Widget dan FloatingActionButton : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/positioned_floatingactionbutton_loginpage/lib/login_page.dart">disini</a>
+  </li>
 <ol>  
