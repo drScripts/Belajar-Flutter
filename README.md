@@ -156,4 +156,7 @@
     <li>
         ScanBarcode (<span style="font-color:red">Masih gagal</span>) : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/scan_qrcode/lib/main_page.dart">disini</a>
     </li>
+    <li>
+        Font Features typography : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/font_features/lib/main.dart">disini</a>
+    </li>
 <ol>  
