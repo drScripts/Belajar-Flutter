@@ -139,4 +139,10 @@
     <li>
         Hard Costum Button untuk file <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/costum_button/lib/main.dart">main.dart</a> dan file <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/costum_button/lib/costum_button.dart">costum_button.dart</a>
     </li>
+    <li>
+        Shader Mask (Opacity dengan Gradient) : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/gradient_opacity_shader_mask/lib/main.dart">disini</a>
+        <ul>
+            <li>Untuk ShadeMask() ia membutuhkan parameter shaderCallBack:(retangle){return {(gradient).createShade(Rect.fromLTRB())} laluuu untuk tambahkan parameter BlendMode untuk menyatukan gambar dengan opacity tadi</li>
+        </ul>
+    </li>
 <ol>  
