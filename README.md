@@ -145,4 +145,12 @@
             <li>Untuk ShadeMask() ia membutuhkan parameter shaderCallBack:(retangle){return {(gradient).createShade(Rect.fromLTRB())} laluuu untuk tambahkan parameter BlendMode untuk menyatukan gambar dengan opacity tadi</li>
         </ul>
     </li>
+    <li>
+        Memainkan Music : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/memainkan_sound_music/lib/main.dart">disini</a>
+        <ul>
+            <li>
+                untuk dapat memainkan music pertama kita harus mengimport library atau plugin audioplayer pada denpedencies audioplayers lalu mengimport package audioplayers
+            </li>
+        </ul>
+    </li>
 <ol>  
