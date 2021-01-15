@@ -200,15 +200,45 @@
  <li>
      lalu pada main dart kita memanggil mehod pada class tadi dengan sytaks async atau menambahkan .then seperti berikut :
      <pre>
-          Result.connectApi('Nathanael', 'Android Developer').then(
-                    (val) {
-                      postResult = val;
-                    },
-     
+      Result.connectApi('Nathanael', 'Android Developer').then(
+        (val) {
+        postResult = val;
+      };
 
  </pre>
   </li>
-       </ul>
-    
+   </ul>
  </li>
+ 
+ <li>
+    Http Get Method Single Data : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_request_api_get_method/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_request_api_get_method/lib/request_method.dart">model</a>
+    <ul>
+        <li>untuk melakukan sebuah request API Get Method biasanya kita menggunakan method yang sama dimana kita harus membuat terlebihdahulu sebuah factory dan lalu membuat Future method untuk connect ke API
+        <pre>
+        factory Person.createUser(Map<String, dynamic> obj) {
+             return Person(
+             id: obj['id'].toString(),
+             name: obj['first_name'] + " " + obj['last_name'],
+             );
+         }
+        </pre>
+        <li>
+        <li>
+            lalu untuk method requestnya : 
+            <pre>
+                 static Future<Person> connectApi(String id) async {
+                 String url = "https://reqres.in/api/users/" + id;
+                 var hasil = await http.get(url);
+                 var jsons = json.decode(hasil.body);
+                 var data = (jsons as Map<String, dynamic>)['data'];
+                 return Person.createUser(data);
+                }
+            </pre>
+        </li>
+        <li>
+            lalu untuk padaa bagian main.dart kita melakukannya sama seperti post method tidak ada perubahan
+        </li>
+    </ul>
+</li>
+ 
 <ol>  
