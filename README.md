@@ -168,7 +168,8 @@
            <li>
                Note : Untuk menghubungkan ke API kita memerlukan depedencies http yang harus didaftarkan pada pubspec terlebih dahulu lalu import dan kaish inisial dengan as,
                setelah itu membuat class bebas dengan constructor sesuai dengan isi dari json yang akan di return hasilnya. lalu membuat method request Connect to Api dimana syntaks seperti berikut 
-               <prev> static Future<Result> connectApi(String name, String job) async {
+               <prev> 
+                   static Future<Result> connectApi(String name, String job) async {
     String url = "https://reqres.in/api/users";
     var results = await http.post(
       url,
@@ -180,7 +181,8 @@
 
     var jsonObject = json.decode(results.body);
     return Result.createResult(jsonObject);
-  }</prev>
+  }
+  </prev>
   </li>
   <li>
   lalu kita harus membuat factory diama factory ini yang akan mereturn kan hasil json menjadi type map seperti berikut :
@@ -202,9 +204,11 @@
                     (val) {
                       postResult = val;
                     },
-     </prev>
- </li>
+     
+
+ </prev>
+  </li>
        </ul>
     
-    </li>
+ </li>
 <ol>  
