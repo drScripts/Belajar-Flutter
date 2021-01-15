@@ -38,7 +38,12 @@ class _MyAppState extends State<MyApp> {
             children: [
               AnimatedSwitcher(
                 duration: Duration(
-                  seconds: 2,
+                  seconds: 1,
+                ),
+                transitionBuilder: (child, animation) => RotationTransition(
+                  key: ValueKey(1),
+                  turns: animation,
+                  child: child,
                 ),
                 child: kotak,
               ),
@@ -52,9 +57,21 @@ class _MyAppState extends State<MyApp> {
                   setState(
                     () {
                       if (isOn) {
-                        kotak = Text("On");
+                        kotak = Container(
+                          key: ValueKey(1),
+                          width: 200,
+                          height: 100,
+                          decoration: BoxDecoration(
+                            color: Colors.blue,
+                            border: Border.all(
+                              color: Colors.black,
+                              width: 3,
+                            ),
+                          ),
+                        );
                       } else {
                         kotak = Container(
+                          key: ValueKey(2),
                           width: 200,
                           height: 100,
                           decoration: BoxDecoration(
