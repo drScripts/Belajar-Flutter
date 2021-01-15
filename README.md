@@ -243,4 +243,7 @@
 <li>
     Http Get Method dengan Multi Data : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_get_method_multi_data/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_get_method_multi_data/lib/request_model.dart">model</a>
 </li>
+<li>
+    Animated Switcher dan Switch : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/witch_animated_switcher_widget/lib/main.dart">disini</a>
+</li>
 <ol>  
