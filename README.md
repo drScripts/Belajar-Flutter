@@ -240,5 +240,7 @@
         </li>
     </ul>
 </li>
- 
+<li>
+    Http Get Method dengan Multi Data : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_get_method_multi_data/lib/main.dart">main<> dan <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/http_get_method_multi_data/lib/request_model.dart">model</a>
+</li>
 <ol>  
