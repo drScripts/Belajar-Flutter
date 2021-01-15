@@ -159,4 +159,7 @@
     <li>
         Font Features typography : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/font_features/lib/main.dart">disini</a>
     </li>
+    <li>
+        Clip Path : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/clip_path/lib/my_clipper.dart">disini</a>
+    </lo>
 <ol>  
