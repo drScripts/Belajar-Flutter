@@ -168,7 +168,7 @@
            <li>
                Note : Untuk menghubungkan ke API kita memerlukan depedencies http yang harus didaftarkan pada pubspec terlebih dahulu lalu import dan kaish inisial dengan as,
                setelah itu membuat class bebas dengan constructor sesuai dengan isi dari json yang akan di return hasilnya. lalu membuat method request Connect to Api dimana syntaks seperti berikut 
-               <prev> 
+               <pre> 
                    static Future<Result> connectApi(String name, String job) async {
     String url = "https://reqres.in/api/users";
     var results = await http.post(
@@ -182,11 +182,11 @@
     var jsonObject = json.decode(results.body);
     return Result.createResult(jsonObject);
   }
-  </prev>
+  </pre>
   </li>
   <li>
   lalu kita harus membuat factory diama factory ini yang akan mereturn kan hasil json menjadi type map seperti berikut :
-  <prev>
+  <pre>
     factory Result.createResult(Map<String, dynamic> obj) {
     return Result(
       id: obj['id'],
@@ -195,18 +195,18 @@
       created: obj['createdAt'],
     );
   }
-  </prev>
+  </pre>
  </li>
  <li>
      lalu pada main dart kita memanggil mehod pada class tadi dengan sytaks async atau menambahkan .then seperti berikut :
-     <prev>
+     <pre>
           Result.connectApi('Nathanael', 'Android Developer').then(
                     (val) {
                       postResult = val;
                     },
      
 
- </prev>
+ </pre>
   </li>
        </ul>
     
