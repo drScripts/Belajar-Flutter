@@ -169,7 +169,7 @@
                Note : Untuk menghubungkan ke API kita memerlukan depedencies http yang harus didaftarkan pada pubspec terlebih dahulu lalu import dan kaish inisial dengan as,
                setelah itu membuat class bebas dengan constructor sesuai dengan isi dari json yang akan di return hasilnya. lalu membuat method request Connect to Api dimana syntaks seperti berikut 
                <pre> 
-                   static Future<Result> connectApi(String name, String job) async {
+    static Future<Result> connectApi(String name, String job) async {
     String url = "https://reqres.in/api/users";
     var results = await http.post(
       url,
@@ -227,11 +227,11 @@
             lalu untuk method requestnya : 
             <pre>
                  static Future<Person> connectApi(String id) async {
-                 String url = "https://reqres.in/api/users/" + id;
-                 var hasil = await http.get(url);
-                 var jsons = json.decode(hasil.body);
-                 var data = (jsons as Map<String, dynamic>)['data'];
-                 return Person.createUser(data);
+                     String url = "https://reqres.in/api/users/" + id;
+                     var hasil = await http.get(url);
+                     var jsons = json.decode(hasil.body);
+                     var data = (jsons as Map<String, dynamic>)['data'];
+                     return Person.createUser(data);
                 }
             </pre>
         </li>
