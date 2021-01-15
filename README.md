@@ -246,4 +246,7 @@
 <li>
     Animated Switcher dan Switch : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/witch_animated_switcher_widget/lib/main.dart">disini</a>
 </li>
+<li>
+    Animated Padding Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/animated_padding/lib/main.dart">disini</a>
+</li>
 <ol>  
