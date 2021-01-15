@@ -161,5 +161,50 @@
     </li>
     <li>
         Clip Path : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/clip_path/lib/my_clipper.dart">disini</a>
-    </lo>
+    </li>
+    <li>
+        API http (Post Method) : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/http_request_api_post_method/lib/post_result_model.dart">model</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/http_request_api_post_method/lib/main.dart">main</a>
+       <ul>
+           <li>
+               Note : Untuk menghubungkan ke API kita memerlukan depedencies http yang harus didaftarkan pada pubspec terlebih dahulu lalu import dan kaish inisial dengan as,
+               setelah itu membuat class bebas dengan constructor sesuai dengan isi dari json yang akan di return hasilnya. lalu membuat method request Connect to Api dimana syntaks seperti berikut 
+               <prev> static Future<Result> connectApi(String name, String job) async {
+    String url = "https://reqres.in/api/users";
+    var results = await http.post(
+      url,
+      body: {
+        "name": name,
+        "job": job,
+      },
+    );
+
+    var jsonObject = json.decode(results.body);
+    return Result.createResult(jsonObject);
+  }</prev>
+  </li>
+  <li>
+  lalu kita harus membuat factory diama factory ini yang akan mereturn kan hasil json menjadi type map seperti berikut :
+  <prev>
+    factory Result.createResult(Map<String, dynamic> obj) {
+    return Result(
+      id: obj['id'],
+      name: obj['name'],
+      job: obj['job'],
+      created: obj['createdAt'],
+    );
+  }
+  </prev>
+ </li>
+ <li>
+     lalu pada main dart kita memanggil mehod pada class tadi dengan sytaks async atau menambahkan .then seperti berikut :
+     <prev>
+          Result.connectApi('Nathanael', 'Android Developer').then(
+                    (val) {
+                      postResult = val;
+                    },
+     </prev>
+ </li>
+       </ul>
+    
+    </li>
 <ol>  
