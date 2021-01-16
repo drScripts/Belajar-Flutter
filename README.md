@@ -273,7 +273,7 @@
                return pref.getString('nama') ?? "no saved Data";
             }
             </pre>
-        <li>
+        </li>
         <li>
             untuk double questionMark Operator itu merupakan operator yang dimana bila statement awal bernilai null maka ia akan mereturn statement baru;
             <pre>
