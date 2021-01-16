@@ -249,4 +249,37 @@
 <li>
     Animated Padding Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/animated_padding/lib/main.dart">disini</a>
 </li>
+<li>
+    Shared Preferences dan Double QuestionMark Operation(??) : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/shared_preferences_double_question_mark_operator/lib/main.dart">disini</a>
+    <ul>
+        <li>Untuk Shared Preferences kita harus menambahkan shared_preferences ke pubspec.yaml</li>
+        <li>Lalu selanjutnya kita harus mengimport sharedPreferences.dart</li>
+        <li>Lalu untuk mensave data kita harus membuat seperti ini dengan kata kunci set
+            <pre>
+             void saveData() async {
+               // inisialisasi class SharedPrefrences;
+              SharedPreferences pref = await SharedPreferences.getInstance();
+              // set save
+              pref.setString('nama', controler.text);
+              pref.setBool('isOn', isOn);
+  }
+            </pre>
+        <li>
+        <li>
+            lalu untuk return atau mengambil data menggunakan method seperti ini
+            <pre>
+            Future<String> loadNama() async {
+               SharedPreferences pref = await SharedPreferences.getInstance();
+               return pref.getString('nama') ?? "no saved Data";
+            }
+            </pre>
+        <li>
+        <li>
+            untuk double questionMark Operator itu merupakan operator yang dimana bila statement awal bernilai null maka ia akan mereturn statement baru;
+            <pre>
+                return pref.getString('nama') ?? "no saved Data";
+            </pre>
+        </li>
+    </ul>
+</li>
 <ol>  
