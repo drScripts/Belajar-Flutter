@@ -329,4 +329,24 @@
 </li>
     </ul>
 </li>
+<li>
+    Multi Provider in Provider State Management : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/provider_state_management_multi_provider/lib/main.dart">main</a>  <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/provider_state_management_multi_provider/lib/money.dart">money</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/provider_state_management_multi_provider/lib/cart.dart">cart</a>
+    <ul>
+        <li>
+            yang menjadi perbedaan Multi dengan single ada lah kita harus membuat Widget MultiProvider terlebih dahulu pada Widget inti
+            <pre>
+            home: MultiProvider(
+             providers: [
+             ChangeNotifierProvider<Money>(
+                create: (context) => Money(),
+            ),
+            ChangeNotifierProvider<Cart>(
+                create: (context) => Cart(),
+            ),
+           ],
+            child: Scaffold(
+            </pre>
+        </li>
+    </ul>
+</li>
 <ol>  
