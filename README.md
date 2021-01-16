@@ -282,4 +282,51 @@
         </li>
     </ul>
 </li>
+<li>
+    Untuk melakukan Change notifier pada widget harus menambahkan plugin provider pada pubspec : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/provider_state_management/lib/main.dart">main</a> dan  <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/provider_state_management/lib/shared_state.dart">Class Implement ChangeNotifier</a>
+    <ul>
+<li>
+    lalu membuat class terpisah bebas namanya namun ia harus mengimplement si class ChangeNotifier seperti ini
+    <pre>
+    import 'package:flutter/cupertino.dart';
+    import 'package:flutter/material.dart';
+
+    class SharedState with ChangeNotifier {
+     bool _isLightblue = true;
+
+     bool get getLightBlue => _isLightblue;
+
+     set setLightBlue(bool isLB) {
+       _isLightblue = isLB;
+       notifyListeners(); // memberitahukan ke widget consumers
+     }
+
+     Color get getColorLB => (_isLightblue) ? Colors.lightBlue : Colors.amber;
+     
+    }
+    </pre>
+</li>
+<li>
+    lalu setelahh itu pada main dart kita harus mengimport class tadi dan juga provider.dart
+</li>
+<li>
+    setelah itu pada home atau main widget yang akan kita rubah harus di bungkus dengan menggunakan Widget ChangeNotifierProvider<(isi dari class yang menyimpan changenotifier)>
+</li>
+<li>
+    lalu stelah itu kita harus membungkus semua widget yang akan kita berikan animasi dengan Widget Consumer dalam Widget Consumers ini juga membutuhkan parameter builder dimana didalamnya membutuhkan sebuah function yang membutuhkan 3 parameter yaitu context, (nama pengganti class yang mengimplement Chagenotifier,_) function ini akan mereturn widget tadi yang dibungkus dengan Consumer : 
+<pre>
+   Consumer<SharedState>(
+    builder: (context, sharedState, _) {
+    return Text(
+        'Provider State Management',
+           style: TextStyle(
+                color: sharedState.getColorLB,
+                  ),
+               );
+             },
+   ),
+</pre>
+</li>
+    </ul>
+</li>
 <ol>  
