@@ -349,4 +349,7 @@
         </li>
     </ul>
 </li>
+<li>
+    BloC State Management : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management/lib/color_bloc.dart">Color BloC</a>
+</li>
 <ol>  
