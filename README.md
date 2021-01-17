@@ -352,4 +352,7 @@
 <li>
     BloC State Management tanpa Library : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management/lib/color_bloc.dart">Color BloC</a>
 </li>
+<>
+    BloC State Management Dengan Library : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/color_bloc.dart">BloC Class</a> <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/main_page.dart">Main Page</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/main.dart">main</a>
+<>
 <ol>  
