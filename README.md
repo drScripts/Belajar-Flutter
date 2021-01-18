@@ -356,4 +356,5 @@
     BloC State Management Dengan Library : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/color_bloc.dart">BloC Class</a> <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/main_page.dart">Main Page</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/bloc_state_management_library/lib/main.dart">main</a>
 </li>
 <li>Doc Documment : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/doc_comment/lib/profile.dart">disini</a> </li>
+<li>Timer Class : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/timer/lib/main.dart">disini</a></li>
 <ol>  
