@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:product_card/product_card.dart';
 import 'package:provider/provider.dart';
+import 'provider.dart';
 
 void main() => runApp(MyApp());
 
@@ -46,15 +47,5 @@ class MyApp extends StatelessWidget {
         ),
       ),
     );
-  }
-}
-
-class ProductState with ChangeNotifier {
-  int _quantity = 0;
-
-  int get quantity => _quantity;
-  set quantity(int newValue) {
-    _quantity = newValue;
-    notifyListeners();
   }
 }
