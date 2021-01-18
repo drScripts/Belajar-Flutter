@@ -6,5 +6,6 @@ class TimeState with ChangeNotifier {
   int get time => _time;
   set time(int time) {
     _time = time;
+    notifyListeners();
   }
 }
