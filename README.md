@@ -357,4 +357,7 @@
 </li>
 <li>Doc Documment : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/doc_comment/lib/profile.dart">disini</a> </li>
 <li>Timer Class : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/timer/lib/main.dart">disini</a></li>
+<li>
+    Custom Progress Bar dengan menggunakan Timer dan Provider : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/main.dart">main</a> <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/custom_progress.dart">Progress Bar Widget</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/share_state.dart">Provider</a>
+</li>        
 <ol>  
