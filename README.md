@@ -361,6 +361,6 @@
     Custom Progress Bar dengan menggunakan Timer dan Provider : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/main.dart">main</a>, <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/custom_progress.dart">Progress Bar Widget</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/custom_progress_bar/lib/share_state.dart">Provider</a>
 </li>
 <li>
-    Costum Product Card : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/product_card/lib/main.dart">main</a>, <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/product_card/lib/product_card.dart">Product Card</a>
+    Costum Product Card : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/product_card/lib/main.dart">main</a>, <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/product_card/lib/provider.dart">provider</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/product_card/lib/product_card.dart">Product Card</a> 
 </li>
 <ol>  
