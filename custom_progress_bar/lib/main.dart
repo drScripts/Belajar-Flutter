@@ -38,7 +38,11 @@ class MyApp extends StatelessWidget {
                     child: Text('Start'),
                     onPressed: () {
                       Timer.periodic(Duration(seconds: 1), (timer) {
-                        timeState.time -= 1;
+                        if (timeState.time == 0) {
+                          timer.cancel();
+                        } else {
+                          timeState.time -= 1;
+                        }
                       });
                     },
                   ),
