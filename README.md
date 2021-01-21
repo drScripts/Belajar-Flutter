@@ -366,4 +366,7 @@
 <li>
     SelectableText ToggleButtons ColorFiltered Widget : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/selectabletext_togglebuttons_colorfiltered/lib/main.dart">disini</a>
 </li>
+<li>
+    Hydrated BLoC State Management : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/color_bloc.dart">BLoC Class</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/main_page.dart">Main Page Class</a>
+</li>        
 <ol>  
