@@ -370,6 +370,6 @@
     Hydrated BLoC State Management : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/color_bloc.dart">BLoC Class</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hydrated_bloc_state_management/lib/main_page.dart">Main Page Class</a>
 </li>
 <li>
-    ListView Builder + BloC = <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main_page.dart">main page</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_bloc.dart">BLoC</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_card.dart">Product Card</a>
+    ListView Builder + BloC : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main_page.dart">main page</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_bloc.dart">BLoC</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_card.dart">Product Card</a>
 </li>
 <ol>  
