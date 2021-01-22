@@ -372,4 +372,7 @@
 <li>
     ListView Builder + BloC : <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main.dart">main</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/main_page.dart">main page</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_bloc.dart">BLoC</a> dan <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/list_view_builder_bloc/lib/product_card.dart">Product Card</a>
 </li>
+<li>
+    MVVM Arsitecture : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/mvvm_architecture/lib">disini</a> 
+</li>
 <ol>  
