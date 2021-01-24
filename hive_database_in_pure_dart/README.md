@@ -19,6 +19,7 @@
   <li>
     saat menambahkan path kita harus menjalan kan (flutter packages pub run build_runner build) pada terminal
   <a href="https://github.com/drScripts/Belajar-Flutter/blob/master/hive_database_in_pure_dart/lib/model/monster.dart">
+    monster
   </a>
   </li>
 </ul>
