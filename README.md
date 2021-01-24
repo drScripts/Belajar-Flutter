@@ -374,5 +374,8 @@
 </li>
 <li>
     MVVM Arsitecture : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/mvvm_architecture/lib">disini</a> 
+</li> 
+<li>
+    Multi Bloc With Multi Page : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/multi_bloc_in_multi_page/lib">disini</a>
 </li>
-<ol>  
+<ol>
