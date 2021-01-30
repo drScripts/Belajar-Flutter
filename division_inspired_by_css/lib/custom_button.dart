@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:division/division.dart';
 
 class CButton extends StatefulWidget {
-  ParentStyle buttonStyle;
+  final ParentStyle buttonStyle;
   CButton(this.buttonStyle);
 
   @override
