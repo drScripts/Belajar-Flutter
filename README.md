@@ -378,4 +378,11 @@
 <li>
     Multi Bloc With Multi Page : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/multi_bloc_in_multi_page/lib">disini</a>
 </li>
+<li>
+    Division Inspired By CSS : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/division_inspired_by_css/lib">disini</a>
+    <ul>
+        <li>Untuk menggunakan division kita harus menambahkan depedencies division di pubspec</li>
+        <li>lalu untuk dapat menggunakan division kita harus menggunakan widget parent pada widget parent ini kita dapat menambahkan style,gesture lalu kita juga bisa menambahkan text namun dengan menggunakan widget Txt</li>
+    </ul>
+</li>
 <ol>
