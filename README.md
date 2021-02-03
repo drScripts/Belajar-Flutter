@@ -388,4 +388,7 @@
         <li>
             Image Slider Using Page View : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/image_slider_using_page_view/lib">disini</a>
         </li>
-<ol>
+<li>
+    Image Slider With Transition ; <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/image_slider_wiith_transition/lib">disini</a>
+</li>
+</ol>
