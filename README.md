@@ -385,4 +385,7 @@
         <li>lalu untuk dapat menggunakan division kita harus menggunakan widget parent pada widget parent ini kita dapat menambahkan style,gesture lalu kita juga bisa menambahkan text namun dengan menggunakan widget Txt</li>
     </ul>
 </li>
+        <li>
+            Image Slider Using Page View : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/image_slider_using_page_view/lib">disini</a>
+        </li>
 <ol>
