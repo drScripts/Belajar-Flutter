@@ -391,4 +391,7 @@
 <li>
     Image Slider With Transition ; <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/image_slider_wiith_transition/lib">disini</a>
 </li>
+<li>
+    Rive + flutter animated switch button : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/rive_flutter">disini</a>
+</li>
 </ol>
