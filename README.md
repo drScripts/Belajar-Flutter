@@ -395,6 +395,6 @@
     Rive + flutter animated switch button : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/rive_flutter">disini</a>
 </li>
 <li>
-    Unit Testing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/unit_testingr">disini</a>
+    Unit Testing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/unit_testing">disini</a>
 </li>   
 </ol>
