@@ -396,5 +396,8 @@
 </li>
 <li>
     Unit Testing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/unit_testing">disini</a>
-</li>   
+</li>
+<li>
+    mockito fake class for unit testing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/mockito_fake_class">disini</a> 
+</li>
 </ol>
