@@ -6,7 +6,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Rive + Flutter'),
+        title: Text('Rive + Flutter coba'),
         backgroundColor: Colors.pink[100],
       ),
       body: Center(
