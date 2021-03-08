@@ -288,12 +288,12 @@
 <li>
     lalu membuat class terpisah bebas namanya namun ia harus mengimplement si class ChangeNotifier seperti ini
     <pre>
-    import 'package:flutter/cupertino.dart';
-    import 'package:flutter/material.dart';
+     import 'package:flutter/cupertino.dart';
+     import 'package:flutter/material.dart';
 
-    class SharedState with ChangeNotifier {
+     class SharedState with ChangeNotifier {
      bool _isLightblue = true;
-
+ 
      bool get getLightBlue => _isLightblue;
 
      set setLightBlue(bool isLB) {
@@ -399,5 +399,8 @@
 </li>
 <li>
     mockito fake class for unit testing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/mockito_fake_class">disini</a> 
+</li>
+<li>
+    Equatable for override object : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/equatable_demo">disini</a>
 </li>
 </ol>
