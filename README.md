@@ -403,4 +403,7 @@
 <li>
     Equatable for override object : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/equatable_demo">disini</a>
 </li>
+<li>
+    Simulasi Http Request with Mockito Test : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/simulasi_http_mockitos">disini</a>
+</li>
 </ol>
