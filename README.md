@@ -406,4 +406,7 @@
 <li>
     Simulasi Http Request with Mockito Test : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/simulasi_http_mockitos">disini</a>
 </li>
+<li>
+    Simulasi Bloc Test : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/bloc_test_simulasi">disini</a>
+</li>
 </ol>
