@@ -409,4 +409,7 @@
 <li>
     Simulasi Bloc Test : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/bloc_test_simulasi">disini</a>
 </li>
+<li>
+    Simulasi Bloc Test 2 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/bloc_test_2">disini</a>
+</li>
 </ol>
