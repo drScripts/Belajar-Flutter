@@ -413,6 +413,9 @@
     Simulasi Bloc Test 2 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/bloc_test_2">disini</a>
 </li>
 <li>
-    Google Fonts Useing : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/goggle_fonts">disini</a>
-</li>        
+    Google Fonts : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/goggle_fonts">disini</a>
+</li>
+<li>
+    Firebase Anonymous Authentication ver_1 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/firebase_authentication">disini</a>
+</li> 
 </ol>
