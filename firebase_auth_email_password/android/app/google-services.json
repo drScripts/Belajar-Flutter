@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "506200589228",
+    "project_id": "authentication-email-pas-d1b6f",
+    "storage_bucket": "authentication-email-pas-d1b6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506200589228:android:598386b704a12777d0f009",
+        "android_client_info": {
+          "package_name": "com.example.firebase_auth_email_password"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506200589228-0223opfhuvq6mjej5uujas29f93b5mk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQvm0otWiUz9pUJOgINPo1JMWs6tcYgW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506200589228-0223opfhuvq6mjej5uujas29f93b5mk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
