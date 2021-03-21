@@ -417,5 +417,8 @@
 </li>
 <li>
     Firebase Anonymous Authentication ver_1 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/firebase_authentication">disini</a>
+</li>
+<li>
+    Firebase Anonymous Authentication + Email Password ver_1 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/firebase_auth_email_password">disini</a>
 </li> 
 </ol>
