@@ -7,9 +7,16 @@ class Products extends StatelessWidget {
       appBar: AppBar(
         title: Text('Products'),
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [],
+      body: Center(
+        child: Container(
+          width: 500,
+          height: 900,
+          color: Colors.red,
+          child: ListView(
+            padding: EdgeInsets.all(20),
+            children: [],
+          ),
+        ),
       ),
     );
   }

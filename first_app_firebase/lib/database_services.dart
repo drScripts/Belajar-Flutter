@@ -16,4 +16,16 @@ class DatabaseServices {
       return false;
     }
   }
+
+  static Future<DocumentSnapshot> getData(String id) async {
+    try {
+      return await _colection.document(id).get();
+    } catch (e) {
+      return null;
+    }
+  }
+
+  static Future<void> deleteData(String id) async {
+    _colection.document(id).delete();
+  }
 }
