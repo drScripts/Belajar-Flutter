@@ -424,4 +424,7 @@
 <li>
     Cloud Fire Store ver_1 : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/cloud_firestore_demos">disini</a>
 </li>
+<li>
+    First App With Firebase : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/first_app_firebase">disini</a>
+</li>
 </ol>
