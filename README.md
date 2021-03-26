@@ -436,4 +436,7 @@
 <li>
     Shimmer Effects : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/shimmer_effects_demo">disini</a>
 </li>
+<li>
+    OneSignal Notification : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/one_signal_notifications">disini</a>
+</li>
 </ol>
