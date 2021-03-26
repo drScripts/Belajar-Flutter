@@ -6,7 +6,7 @@ import 'package:image_picker_demos/auth_services.dart';
 import 'package:image_picker_demos/database_services.dart';
 
 class ImageSelect extends StatefulWidget {
-  FirebaseUser user;
+  final FirebaseUser user;
   ImageSelect(this.user);
 
   @override

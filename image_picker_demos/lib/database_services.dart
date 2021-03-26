@@ -15,4 +15,34 @@ class DatabaseServices {
 
     return await snapshot.ref.getDownloadURL();
   }
+
+  static Future<void> sendData(String name, String price, String id) async {
+    try {
+      await _collection.document(id).setData({
+        'name': name,
+        'price': price,
+      });
+    } catch (e) {
+      print(e);
+      return null;
+    }
+  }
+
+  static Future<DocumentSnapshot> getData(String id) async {
+    try {
+      DocumentSnapshot snapshot = await _collection.document(id).get();
+      return snapshot;
+    } catch (e) {
+      print(e);
+      return null;
+    }
+  }
+
+  static Future<void> deleteData(String id) async {
+    try {
+      await _collection.document(id).delete();
+    } catch (e) {
+      print(e);
+    }
+  }
 }
