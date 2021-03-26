@@ -433,4 +433,7 @@
 <li>
     Second Apps With Firebase : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/second_aplications_using_firebase">disini</a>
 </li>
+<li>
+    Shimmer Effects : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/shimmer_effects_demo">disini</a>
+</li>
 </ol>
