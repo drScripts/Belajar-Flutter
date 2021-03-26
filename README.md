@@ -431,6 +431,6 @@
     Working With Image Picker And Fire Storage : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/image_picker_demos">disini</a>
 </li>
 <li>
-    Second Apps With Firebase : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/second_aplications_using_firebases">disini</a>
+    Second Apps With Firebase : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/second_aplications_using_firebase">disini</a>
 </li>
 </ol>
