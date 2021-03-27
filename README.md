@@ -442,4 +442,7 @@
 <li>
     Animasi Dasar : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/animasi_dasar">disini</a>
 </li>
+<li>
+    Application Life Cycle State : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/aplication_state_cycle">disini</a>
+</li>
 </ol>
