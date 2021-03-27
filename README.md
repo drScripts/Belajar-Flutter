@@ -439,4 +439,7 @@
 <li>
     OneSignal Notification : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/one_signal_notifications">disini</a>
 </li>
+<li>
+    Animasi Dasar : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/animasi_dasar">disini</a>
+</li>
 </ol>
