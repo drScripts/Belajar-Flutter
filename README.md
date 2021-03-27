@@ -445,4 +445,7 @@
 <li>
     Application Life Cycle State : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/aplication_state_cycle">disini</a>
 </li>
+<li>
+    Change Splash Screen : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/change_splash_screen">disini</a>
+</li>        
 </ol>
