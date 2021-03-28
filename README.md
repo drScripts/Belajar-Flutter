@@ -447,5 +447,8 @@
 </li>
 <li>
     Change Splash Screen : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/change_splash_screen">disini</a>
-</li>        
+</li>
+<li>
+    Latihan Json Parse : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/coba_apps_news">disini</a>,<a href="https://github.com/drScripts/Belajar-Flutter/tree/master/code_lab_news_apps">disini</a>
+</li>
 </ol>
