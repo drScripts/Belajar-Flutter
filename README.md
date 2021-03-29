@@ -450,5 +450,5 @@
 </li>
 <li>
     Latihan Json Parse : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/coba_apps_news">contoh 1</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/code_lab_news_apps">contoh 2</a>, 
-<a href="https://github.com/drScripts/Belajar-Flutter/tree/master/belajar_json_parsed_2">contoh 3</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/coba_json_parsed_1">contoh 4</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/belajar_parsed_json_3">contoh 5</a></li> 
+<a href="https://github.com/drScripts/Belajar-Flutter/tree/master/belajar_json_parsed_2">contoh 3</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/coba_json_parsed_1">contoh 4</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/belajar_parsed_json_3">contoh 5</a>, <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/news_apps_review">contoh 5</a></li> 
 </ol>
