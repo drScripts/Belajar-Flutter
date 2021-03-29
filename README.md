@@ -457,4 +457,7 @@
 <li>
     Cubit State Management : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/cubit_new_version">disini</a>
 </li>
+<li>
+    Format Currency : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/cirrency_format">disini</a>
+</li>
 </ol>
