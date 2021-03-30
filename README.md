@@ -460,4 +460,7 @@
 <li>
     Format Currency : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/cirrency_format">disini</a>
 </li>
+ <li>
+    Bloc Management ver 6.x.x : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/new_bloc_ver">disini</a>
+</li>       
 </ol>
