@@ -2,15 +2,71 @@
 
 A new Flutter project.
 
-## Getting Started
+## Explanation
+- pengambilan data dengan system sekali ambil / unsynchronized menggunakan FutureBuilder<Object>()
+- untuk unsynchronized menggunakan method get()
+<pre>
+FutureBuilder<QuerySnapshot>(
+                 future: collection.get(),
+                 builder: (_, snapshot) {
+                   if (snapshot.hasData) {
+                     return Column(
+                       children: snapshot.data.docs
+                           .map(
+                             (e) => ItemCard(
+                               e.data()['name'],
+                               e.data()['age'],
+                             ),
+                           )
+                           .toList(),
+                     );
+                   } else {
+                     return Center(
+                       child: CircularProgressIndicator(),
+                     );
+                   }
+                 },
+               ),
+</pre>
 
-This project is a starting point for a Flutter application.
+- untuk yang synchronized menggunakan StreamBuilder<Object>()
+- synchornized juga menggunakan collection.snapshot(),
+<pre>
+StreamBuilder<QuerySnapshot>(
+                stream: collection.orderBy('age', descending: true).snapshots(),
+                builder: (context, snapshot) {
+                  if (snapshot.hasData) {
+                    return Column(
+                      children: snapshot.data.docs
+                          .map(
+                            (e) => ItemCard(
+                              e.data()['name'],
+                              e.data()['age'],
+                              onUpdate: () {
+                                collection
+                                    .doc(e.id)
+                                    .update({"age": e.data()['age'] + 1});
+                              },
+                              onDelete: () {
+                                collection.doc(e.id).delete();
+                              },
+                            ),
+                          )
+                          .toList(),
+                    );
+                  } else {
+                    return Center(child: CircularProgressIndicator());
+                  }
+                },
+              ),
+</pre>
 
-A few resources to get you started if this is your first Flutter project:
+- untuk proses filter menggunakan method where() sebelum collection pada stream/future
+<pre>
+collection.where('age', gratherThan: 15).snapshots()
+</pre>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- untuk proses sort menggunakan method orderBy() sebelum collection pada stream/future
+<pre>
+collection.orderBy('age', descending: true).snapshots()
+</pre>
