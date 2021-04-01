@@ -481,4 +481,7 @@
 <li>
     Replay Bloc + Cubit Redo Undo  Review : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/review_replay_bloc_redo_undo">disini 1</a>, dan <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/review_bloc_cubit_replay_2">disini 2</a>
 </li>
+<li>
+    Cubit Test : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/cubit_test_demo">disini</a>
+</li>
 </ol>
