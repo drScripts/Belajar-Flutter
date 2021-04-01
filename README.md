@@ -469,4 +469,7 @@
 <li>
     Firestore CRUD Full : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/crud_cloud_firestore">disini</a>
 </li> 
+<li>
+    Firestore CRUD Review Crud : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/crud_reviews">disini</a>
+</li>
 </ol>
