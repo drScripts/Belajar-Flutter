@@ -472,4 +472,7 @@
 <li>
     Firestore CRUD Review Crud : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/crud_reviews">disini</a>
 </li>
+<li>
+    GetX Navigation : <a href="https://github.com/drScripts/Belajar-Flutter/tree/master/getx_navigation_demo">disini</a>
+</li>
 </ol>
