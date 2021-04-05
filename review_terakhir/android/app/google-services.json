@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "117720068119",
+    "project_id": "review-terakhir",
+    "storage_bucket": "review-terakhir.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117720068119:android:504be4a36f68f73f2bec52",
+        "android_client_info": {
+          "package_name": "com.example.review_terakhir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117720068119-lm6k037dvs1q4kv7jttjbdt6rg6baksr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxm7khlLqVIDbdYeAcQbfwAqQeog1iC80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117720068119-lm6k037dvs1q4kv7jttjbdt6rg6baksr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
