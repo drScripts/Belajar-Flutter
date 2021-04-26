@@ -105,11 +105,9 @@ class Login extends StatelessWidget {
                       width: 343,
                       alignment: Alignment.centerRight,
                       child: TextButton(
-                        onPressed: () {
-                          Get.toNamed('/signUp');
-                        },
+                        onPressed: () {},
                         child: Text(
-                          'dont have account?',
+                          'forgot password?',
                           textAlign: TextAlign.right,
                         ),
                       ),
@@ -140,14 +138,13 @@ class Login extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () async {
-                        await AuthServices().signInAnonymous();
+                        Get.toNamed('/signUp');
                       },
                       child: Text(
-                        'Skip',
+                        'dont have account?',
                         style: GoogleFonts.rubik(
                           fontSize: 14,
                           fontWeight: FontWeight.w500,
-                          color: Color(0xff78746D),
                         ),
                       ),
                     ),

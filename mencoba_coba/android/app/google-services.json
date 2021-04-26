@@ -33,35 +33,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:87242257199:android:46248b7623f8fd601967da",
-        "android_client_info": {
-          "package_name": "com.example.review_terakhir"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "87242257199-fc60cpb9hrl3o5gsr09mfjt5m8ul7v4c.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBhhb_GCTRCSpAeqjpsJHA-5e0XJd7IBTg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "87242257199-fc60cpb9hrl3o5gsr09mfjt5m8ul7v4c.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"
